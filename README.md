@@ -26,7 +26,7 @@ To render one of two components, use ToggleAB. The first component passed to Tog
 function shouldComponentADisplay() {
   /* toggling logic here */
 }
-const ToggledComponent = ToggleOn(ComponentA, ComponentB, shouldComponentADisplay);
+const ToggledComponent = ToggleAB(ComponentA, ComponentB, shouldComponentADisplay);
 
 class MyPage extends Component {
   render() {
